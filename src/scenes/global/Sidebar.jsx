@@ -16,6 +16,7 @@ import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutl
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
+import image from "../../assets/user.png";
 import "react-pro-sidebar/dist/css/styles.css";
 
 const Item = ({ title, icon, to, selected, setSelected }) => {
@@ -89,7 +90,7 @@ const Sidebar = () => {
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src={`../../assets/user.png`}
+                  src={image}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
